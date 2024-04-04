@@ -1,0 +1,135 @@
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+header {
+    background-image: url('./images/istockphoto-1412286332-612x612.jpg');
+    background-size: co;
+    background-position: center;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #666;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #444;
+}
+
+section {
+    padding: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+/* Стили для страницы "Speisekarte" */
+.recipe {
+    margin-bottom: 40px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: #fff;
+}
+
+.recipe h3 {
+    color: #555;
+    margin-top: 0;
+}
+
+.recipe p {
+    color: #777;
+}
+
+.recipe strong {
+    color: #333;
+}
+
+.dish-img {
+    max-width: 100%;
+
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Стили для отзывов */
+#reviews {
+    background-color: #f9f9f9;
+    padding: 40px;
+    margin-top: 20px;
+}
+
+.reviews blockquote {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.reviews blockquote p {
+    font-style: italic;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.reviews blockquote footer {
+    color: #777;
+}
+
+.rating {
+    color: #FFD700;
+}
+
+/* Стили для формы отзывов */
+#review-form {
+    margin-top: 20px;
+}
+
+#review-form label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+#review-form input[type="text"],
+#review-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#review-form button {
+    background-color: #666;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#review-form button:hover {
+    background-color: #555;
+}
